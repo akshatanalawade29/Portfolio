@@ -1,0 +1,10 @@
+name: Push Success Workflow
+
+on: [push]
+
+jobs:
+  say-success:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show success message
+        run: echo "✅ Code pushed successfully! Great job, Akshata!"
